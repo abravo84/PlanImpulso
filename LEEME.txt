@@ -1,0 +1,11 @@
+En este repositorio se comparte todo el código generado en el estudio de
+viabilidad de una versión en español del sistema UMLS.
+
+Actualmente, este repositorio contiene tres carpetas:
+
+	- java: Contiene el código JAVA implementado en el estudio, así el fichero
+	  JAR compilado.
+	  
+	- python: Contiene el código Python implementado en el estudio.
+	
+	- sh: Contiene el código Shell Script implementado en el estudio.

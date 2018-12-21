@@ -1,0 +1,10 @@
+En este directorio se incluyen:
+
+	- ixa_en.sh: es el script implementado para ejecutar IXA Pipes en inglés.
+	  Además, contiene la misma ejecución utilizada para este estudio.
+
+	- ixa_es.sh: es el script implementado para ejecutar IXA Pipes en español.
+	  Además, contiene la misma ejecución utilizada para este estudio.
+	  
+	- mm.sh: es el script implementado para ejecutar MetaMap.
+	  Además, contiene la misma ejecución utilizada para este estudio.

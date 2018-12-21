@@ -1,0 +1,23 @@
+En este directorio se incluyen:
+
+	- MetaMap.java: es una implementación en Java que se ha creado para
+	  documentos de texto al servidor de MetaMap, recuperar los resultados y
+	  escribirlos en un nuevo fichero.
+
+	- mm.jar: es la compilación de la implementación de MetaMap.java lista para
+	  ejecutar. La ejecución se realiza de la siguiente manera:
+	  	
+	  	java -jar mm.jar OPTIONS INPUT_PATH OUTPUT_PATH
+	  	
+	  Donde:
+	  	
+	  	- OPTIONS: es un texto indicando las instrucciones de configuración de 
+	  	  la extracción de MetaMap (p.e. "-y --conj -r 800").
+	  	  
+	 	- INPUT_PATH: es la ruta del directorio conteniendo documentos de texto.
+	 	
+	 	- OUTPUT_PATH: es la ruta del directorio donde el ejecutable escribirá
+	 	  los resultados para cada documentos de texto del directorio INPUT_PATH.
+	 	  
+En el directorio del repositorio sh/ se encuentra el fichero mm.sh donde se
+describe la ejecución que se realizó para este estudio.

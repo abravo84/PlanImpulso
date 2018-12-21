@@ -1,0 +1,49 @@
+En este directorio se incluyen:
+
+	- COPPA_processing: este script procesa los XML del corpus COPPA para
+	  extraer el texto de aquellas patentes relacionadas con el dominio
+	  biomédico. Para ejecutar el script se han de redefinir las siguientes
+	  variables:
+	  
+	  	- es_docs_path: ruta del directorio del conjunto de documentos en el
+	  	  corpus COPPA. Por ejemplo: "/home/upf/Lote1/tei/Xml/en/" para inglés y
+	  	  "/home/upf/Lote1/tei/Xml/es/" para español.
+	  	  
+	  	- medical_patents_path: es la ruta de un fichero intermedio de salida,
+	  	  que recoge el listado de todas aquellas patentes relacionadas con el
+	  	  dominio biomédico.
+	  	  
+	  	- medical_patents_processed_path: es la ruta del fichero de salida que
+	  	  contiene el texto de todas las pantentes biomédicas del corpus COPPA.
+
+	- MedlinePlus_processing: este script procesa los XML del corpus MedlinePlus
+	  para extraer el texto relevante. Para ejecutar el script se han de
+	  redefinir las siguientes variables:
+	  
+	  	- input_path: ruta del directorio del conjunto de documentos en el
+	  	  corpus MedlinePlus. Por ejemplo:
+	  	  "/home/upf/MedlinePlus-TEI-Sp-En/TEI_EN/" para inglés y
+	  	  "/home/upf/corpora/MedlinePlus-TEI-Sp-En/TEI_ES/" para español.
+	  	  
+	  	- ouput_path: es la ruta del directorio de salida que contiene todos
+	  	  los documenetos de texto procesados del corpus MedlinePlus.
+	
+	- Scielo_processing: este script procesa los XML del corpus Scielo para
+	  extraer el texto relevante. Para ejecutar el script se han de redefinir
+	  las siguientes variables:
+	  
+	  	- corpus_path: ruta del directorio del conjunto de documentos en el
+	  	  corpus Scielo. Por ejemplo: "/home/upf/corpora/SciELO_corpus".
+	  	  
+	  	- output_path: es la ruta del directorio de salida que contiene todos
+	  	  los documenetos de texto procesados del corpus Scielo.
+	  	 
+	  	- lang: es una variable para indicar si se queire extraer el texto
+	  	  inglés ("en") o español ("es") del corpus Scielo.
+	
+	- trigram_processing: este script es un ejemplo de impletantación para
+	  crear un modelo de lenguaje basado en trigramas. Para ejecutar el script
+	  se han de redefinir las siguientes variables:
+	  
+	  	- input_path: es la ruta del fichero conteniendo frases o términos en
+	  	  cada línea.
